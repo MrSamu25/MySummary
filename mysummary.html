@@ -13,6 +13,15 @@
 	</head>
 
 	<body>
+
+	 	  <script src="https://code.jquery.com/jquery-3.1.1.js"
+	         integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+	         crossorigin="anonymous"></script>
+
+	         <!-- jQuery Modal -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 		<div id="contenido">
 			
 			<div id="banner">
@@ -74,6 +83,14 @@
 					<div class="titulo"> <i class="fas fa-suitcase"> </i> <strong> EXPERIENCIA PROFESIONAL </strong></div>
 
 					<span> UNIVERSIDAD ICESI <br>
+					Monitor de Algoritmos y Estructuras de Datos <br> </span>
+					<div class="fecha"> Enero 2018 - Junio 2018 </div> <br>
+
+					<span> UNIVERSIDAD ICESI <br>
+					Monitor de Algoritmos y Programación II <br> </span>
+					<div class="fecha"> Enero 2017 - Diciembre 2017 </div> <br>
+
+					<span> UNIVERSIDAD ICESI <br>
 					Monitor de Algoritmos y Programación I <br> </span>
 					<div class="fecha"> Enero 2016 - Diciembre 2016 </div> <br>
 
@@ -81,18 +98,8 @@
 					Asistente de profesor encargado del area de sistemas <br> </span>
 					<div class="fecha"> Enero 2013 - Diciembre 2014 </div> <br>
 
-					<span> INST COMERCIAL INDUSTRIAL Y TECNOLÓGICO (ICIT)  <br>
-					Asistente de profesor encargado del area de sistemas <br> </span>
-					<div class="fecha"> Enero 2013 - Diciembre 2014 </div> <br>
-
-					<span> INST COMERCIAL INDUSTRIAL Y TECNOLÓGICO (ICIT)  <br>
-					Asistente de profesor encargado del area de sistemas <br> </span>
-					<div class="fecha"> Enero 2013 - Diciembre 2014 </div> <br> <br> <br> <br> <br> <br>
-
 				</div>
 			</div>
-
-			<br>
 
 			<div class="skills">		
 				
@@ -120,7 +127,6 @@
 						<p> github.com/MrSamu25 </p>
 						<p> linkedin.com/in/samuriel/ </p>
 					</div>
-					
 
 				</div>
 				
@@ -139,55 +145,140 @@
 				</div>
 
 			</div>
-
+			
 			<div class="grilla">
-				
-				<div class="cuadro">
-					<strong> Front-end</strong> <br>
-					HTML5, CSS, SASS, JS/ES6, JQuery, Vuejs, Typescript.
+
+				<a href="#ex1" rel="modal:open" style="text-decoration:none;color:black">
+					<div class="cuadro">
+						<strong> Front-end</strong> <br>
+						HTML5, CSS, SASS, JS/ES6, JQuery, Vuejs, Typescript.
+					</div>
+				</a>
+
+				<div id="ex1" class="modal">
+				  <p> <strong> HTML5: </strong> medio</p>
+				  <p> <strong> CSS: </strong>  medio</p>
+				  <p> <strong> SASS: </strong>  bajo</p>
+				  <p> <strong>  JS/ES6: </strong>  avanzado</p>
+				  <p> <strong> JQuery: </strong>  avanzado</p>
+				  <p> <strong> Vuejs: </strong>  medio</p>
+				  <p> <strong> Typescript: </strong>  bajo</p>
 				</div>
 
+
+
+				<a href="#ex2" rel="modal:open" style="text-decoration:none;color:black">
 				<div class="cuadro">
 					<strong> Back-end</strong> <br>
 					Nodejs, C#, JAVA EE, PHP, PYTHON.
 				</div>
+				</a>
 
-				<div class="cuadro">
-					<strong> Frameworks </strong> <br>
-					Bootstrap, Foundation, Eclipse, STS. 
+				<div id="ex2" class="modal">
+				  <p> <strong> Nodejs: </strong> avanzado</p>
+				  <p> <strong>  C#: </strong>  medio</p>
+				  <p> <strong> JAVA EE: </strong>  bajo</p>
+				  <p> <strong>  PHP: </strong>  avanzado</p>
+				  <p> <strong>  PYTHON: </strong>  avanzado</p>
 				</div>
 
-				<div class="cuadro">
-					<strong> Wireframes and Prototypes </strong> <br>
-					Wordpress, OpenCart. 
-				</div>
 
-				<div class="cuadro">
-					<strong> Plataforms </strong> <br>
-					Wordpress, OpenCart. 
-				</div>
 
-				<div class="cuadro">
-					<strong> Vector (icons) </strong> <br>
-					Inkscape, Illustrator.
-				</div>
-
-				<div class="cuadro">
-					<strong> Automation tools </strong> <br>
-					Gulp, Grunt.
-				</div>
-
-				<div class="item_grande">
+				<a href="#ex3" rel="modal:open" style="text-decoration:none;color:black">
 					<div class="cuadro">
-					<strong> Others </strong> <br>
-					Git, Hotjar, Responsive Design (mobile-first), basic SEO, Agile methodologies, Vagrant. 
+						<strong> Frameworks </strong> <br>
+						Bootstrap, Foundation, Eclipse, STS. 
 					</div>
+				</a>
+
+				<div id="ex3" class="modal">
+				  <p> <strong> Bootstrap: </strong> avanzado</p>
+				  <p> <strong> Foundation: </strong>  medio</p>
+				  <p> <strong> Eclipse: </strong>  bajo</p>
+				  <p> <strong>  STS: </strong>  avanzado</p>
 				</div>
+
+
+
+				<a href="#ex4" rel="modal:open" style="text-decoration:none;color:black">
+					<div class="cuadro">
+						<strong> Wireframes and Prototypes </strong> <br>
+						Axure, Adobe XD, Sketch.
+					</div>
+				</a>
+
+				<div id="ex4" class="modal">
+				  <p> <strong>  Axure: </strong>  avanzado</p>
+				  <p> <strong> Adobe XD: </strong>  avanzado</p>
+				  <p> <strong> Sketch: </strong>  medio</p>
+				</div>
+
+
+
+				<a href="#ex5" rel="modal:open" style="text-decoration:none;color:black">
+					<div class="cuadro">
+						<strong> Plataforms </strong> <br>
+						Wordpress, OpenCart. 
+					</div>
+				</a>
+
+				<div id="ex5" class="modal">
+				  <p> <strong>  Wordpress: </strong>  medio</p>
+				  <p> <strong> OpenCart: </strong>  medio</p>
+				</div>
+
+
+
+				<a href="#ex6" rel="modal:open" style="text-decoration:none;color:black">
+					<div class="cuadro">
+						<strong> Vector (icons) </strong> <br>
+						Inkscape, Illustrator.
+					</div>
+				</a>
+
+				<div id="ex6" class="modal">
+				  <p> <strong>  Inkscape: </strong>  bajo</p>
+				  <p> <strong> Illustrator: </strong>  avanzado</p>
+				</div>
+	
+
+				<a href="#ex7" rel="modal:open" style="text-decoration:none;color:black">
+					<div class="cuadro">
+						<strong> Automation tools </strong> <br>
+						Gulp, Grunt.
+					</div>
+				</a>
+				
+				<div id="ex7" class="modal">
+				  <p> <strong>  Gulp: </strong>  medio</p>
+				  <p> <strong> Grunt: </strong>  avanzado</p>
+				</div>
+
+
+
+				<a class="item_grande" href="#ex8" rel="modal:open" style="text-decoration:none;color:black">
+					
+					<div class="cuadro">
+						<strong> Others </strong> <br>
+						Git, Hotjar, Responsive Design (mobile-first), basic SEO, Agile methodologies, Vagrant.
+					</div>
+				</a>
+
+				<div id="ex8" class="modal">
+				  <p> <strong>  Git: </strong>  avanzado</p>
+				  <p> <strong> Hotjar: </strong>  bajo</p>
+				  <p> <strong> Responsive Design: </strong>  avanzado</p>
+				  <p> <strong>  basic SEO: </strong>  bajo</p>
+				  <p> <strong> Agile methodologies: </strong>  avanzado</p>
+				  <p> <strong> Vagrant: </strong>  medio</p>
+				</div>
+
+				
 				
 			</div>
 
 		</div>
 
-
+		
 	</body>
 </html>

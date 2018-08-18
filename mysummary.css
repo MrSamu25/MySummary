@@ -73,6 +73,9 @@ span {
     padding: 30px;
     margin: 20px 30px 30px 30px;
 }
+.cuadro:hover{
+    background-color: #00695C;
+}
 .item_grande {
 	grid-column-start: 2;
 	grid-column-end: 4;
